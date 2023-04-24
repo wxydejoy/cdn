@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T10:39:48.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="CdqM2JrmKSrjaN7wavaA" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:45:36.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="AwnXXUDJcAer02uEn5Se" version="21.0.8" type="github">
   <diagram name="第 1 页" id="Em-Xw_e7k-aKN8NRgrZc">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,9 +104,6 @@
         <mxCell id="7PT6G1Jtv1E3yQdZefuV-29" value="接收红外接收器信号并做出相应反应" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="787" y="275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7PT6G1Jtv1E3yQdZefuV-39" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-32" target="7PT6G1Jtv1E3yQdZefuV-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7PT6G1Jtv1E3yQdZefuV-42" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-32" target="7PT6G1Jtv1E3yQdZefuV-16">
           <mxGeometry x="-0.9453" relative="1" as="geometry">
             <Array as="points">
@@ -117,24 +114,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7PT6G1Jtv1E3yQdZefuV-32" value="判断是否有语音模块输入" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7PT6G1Jtv1E3yQdZefuV-32" value="判断当前模式是否为自动模式" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="732.25" y="395" width="229.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7PT6G1Jtv1E3yQdZefuV-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-38" target="7PT6G1Jtv1E3yQdZefuV-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7PT6G1Jtv1E3yQdZefuV-43" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-38" target="7PT6G1Jtv1E3yQdZefuV-16">
-          <mxGeometry x="-0.9206" y="5" relative="1" as="geometry">
+        <mxCell id="7PT6G1Jtv1E3yQdZefuV-41" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-32" target="7PT6G1Jtv1E3yQdZefuV-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="847.0999999999999" y="574.9782135076252" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="680" y="550" />
-              <mxPoint x="680" y="460" />
-              <mxPoint x="397" y="460" />
+              <mxPoint x="847" y="520" />
+              <mxPoint x="847" y="520" />
             </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7PT6G1Jtv1E3yQdZefuV-38" value="是否为自动挡" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="732.25" y="525" width="229.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7PT6G1Jtv1E3yQdZefuV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-40">
           <mxGeometry relative="1" as="geometry">
@@ -147,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7PT6G1Jtv1E3yQdZefuV-40" value="根据温度切换挡位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="790.5" y="650" width="113" height="35" as="geometry" />
+          <mxGeometry x="790.5" y="560" width="113" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
