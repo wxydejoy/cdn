@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T11:31:45.226Z" agent="Mozilla/5.0 (Linux; Android 13; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 EdgA/111.0.1661.59" etag="ZDbw2xQzXyPZmqcqlOkG" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T11:33:22.044Z" agent="Mozilla/5.0 (Linux; Android 13; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 EdgA/111.0.1661.59" etag="iKIUz4FS40T9_kpwjHiP" version="21.2.1" type="github">
   <diagram name="第 1 页" id="Em-Xw_e7k-aKN8NRgrZc">
-    <mxGraphModel dx="1620" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="653" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,8 +90,8 @@
         <mxCell id="7PT6G1Jtv1E3yQdZefuV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7PT6G1Jtv1E3yQdZefuV-27" target="7PT6G1Jtv1E3yQdZefuV-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1065" y="260" />
-              <mxPoint x="847" y="260" />
+              <mxPoint x="1065" y="270" />
+              <mxPoint x="847" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -102,15 +102,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7PT6G1Jtv1E3yQdZefuV-29" value="接收红外接收器信号并做出相应反应" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="787" y="275" width="120" height="60" as="geometry" />
+          <mxGeometry x="787" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gzNkJ2L_O-pqb2JJaLC5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7PT6G1Jtv1E3yQdZefuV-32" target="7PT6G1Jtv1E3yQdZefuV-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="250" as="targetPoint" />
             <Array as="points">
               <mxPoint x="710" y="420" />
-              <mxPoint x="710" y="260" />
-              <mxPoint x="847" y="260" />
+              <mxPoint x="710" y="280" />
+              <mxPoint x="847" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
