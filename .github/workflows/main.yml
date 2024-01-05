@@ -60,6 +60,12 @@ jobs:
     #     ref: output
     #     path: branch_output
 
+    - name: replace raw.githubusercontent.com/wxydejoy/cdn/output with cdn.undf.top/weibo
+      run: |
+        sed -i 's/raw.githubusercontent.com\/wxydejoy\/cdn\/output/cdn.undf.top\/weibo/g' ./weibo/output/tweets.json
+
+        
+
     - name: Update output branch
       run: |
         git config user.name github-actions
