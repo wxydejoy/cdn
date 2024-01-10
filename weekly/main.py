@@ -19,7 +19,7 @@ else:
 
 
 # 获取环境变量 URL + WW.YYYY.MM.DD
-url = os.environ["URL"]  + datestr
+url = str(os.environ["URL"]  + datestr)
 print(url)
 
 # 发送请求 并保存为md文件
