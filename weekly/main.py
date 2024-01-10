@@ -20,7 +20,7 @@ else:
 
 # 获取环境变量 URL + WW.YYYY.MM.DD
 url = str(os.environ["URL"]  + datestr)
-print(url)
+# print(url)
 
 # 发送请求 并保存为md文件
 with open("weekly.md", "w", encoding="utf-8") as f:
