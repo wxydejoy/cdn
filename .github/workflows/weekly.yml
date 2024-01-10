@@ -33,7 +33,7 @@ jobs:
       working-directory: ./weekly
       # ENV
       env:
-        URL: ${{ env.URL }}
+        URL: ${{ vars.URL }}
       run: |
         python main.py $URL
 
