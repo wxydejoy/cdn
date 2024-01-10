@@ -27,7 +27,7 @@ jobs:
 
     - name: Install requirements
       working-directory: ./weekly
-      run: pip install -r requirements.txt
+      run: pip install requests
     
     - name: Download 
       working-directory: ./weekly
