@@ -1,0 +1,49 @@
+# 根据当前的日期获取日志文件名、格式为WW.YYYY.MM.DD.md url 保存在gtihub 环境变量中
+# 
+
+# 1. 获取当前日期
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+      
+
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Install requirements
+      working-directory: ./weekly
+      run: pip install -r requirements.txt
+    
+    - name: Download 
+      working-directory: ./weekly
+      # ENV
+      env:
+        URL: ${{ env.URL }}
+      run: |
+        python main.py $URL
+
+    - name: Update output branch
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "update weekly"
+        git push
+
+
+
