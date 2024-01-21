@@ -44,6 +44,11 @@ jobs:
       working-directory: ./weibo
       run: pip install -r requirements.txt
       
+    - name: Install & Run Redis
+      run: |
+        sudo apt-get install -y redis
+        redis-server --port 29384 &
+
     - name: Download tweets & Download pictures & Store tweets
       working-directory: ./weibo
       run: |
