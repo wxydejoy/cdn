@@ -1,6 +1,5 @@
 name: Collect tweets on weibo
 
-# oh,my dear son!
 env:
   WEIBO_USER: 3641314261
   OWNER_REPO: ${{ github.repository }}
