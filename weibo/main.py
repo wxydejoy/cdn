@@ -60,7 +60,7 @@ print(rss_data.entries.__len__())
 result = []
 tweets = []
 user = {
-    "nick_name": rss_data.feed.title,
+    "nick_name": rss_data.feed.title.replace('的微博', ''),
 }
 
 for entry in rss_data.entries:
@@ -68,7 +68,7 @@ for entry in rss_data.entries:
     tweets.append(
         {
 
-            "created_at": time.strftime("%Y-%m-%d %H:%M:%S", entry.published_parsed),
+            "created_at": time.strftime("%Y-%m-%d %H:%M", entry.published_parsed),
             "reposts_count": 0,
             "comments_count": 0,
             "attitudes_count": 0,
