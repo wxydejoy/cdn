@@ -72,7 +72,7 @@ for entry in rss_data.entries:
             "reposts_count": 0,
             "comments_count": 0,
             "attitudes_count": 0,
-            "content": entry.summary,
+            "content": entry.title,
             "url": entry.link,
         }
     )
