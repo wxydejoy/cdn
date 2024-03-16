@@ -29,9 +29,7 @@ jobs:
 
     - name: Install requirements
       working-directory: ./weekly
-      run: |
-      pip install requests
-      pip install feedparser
+      run: pip install requests feedparser
     
     - name: Download 
       working-directory: ./weekly
