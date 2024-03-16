@@ -85,4 +85,4 @@ result.append({
 # print(json.dumps(result, ensure_ascii=False))
 # save to file
 with open('weibo.json', 'w', encoding='utf-8') as f:
-    json.dump(result, f, ensure_ascii=False)
+    json.dump(result[0], f, ensure_ascii=False)
