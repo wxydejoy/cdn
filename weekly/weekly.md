@@ -1,81 +1,55 @@
-<!DOCTYPE html>
-<html lang="en" translate="no">
-  <head>
-    
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <meta name="referrer" content="same-origin" >
-    <meta name="generator" content="AList V3" >
-    <meta name="theme-color" content="#000000" >
-    <meta name="google" content="notranslate" >
-    
-    <meta name="apple-mobile-web-app-capable" content="yes" >
-    <meta name="apple-mobile-web-app-title" content="AList" >
-    <link       rel="apple-touch-icon"
-      href="https://jsd.nn.ci/gh/alist-org/logo@main/logo.png"
-    >
-    <script       src="https://g.alicdn.com/IMM/office-js/1.1.5/aliyun-web-office-sdk.min.js"
-      async
-    ></script>
-    <link       rel="shortcut icon"
-      type="image/ico"
-      href="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"
-    >
-    <title>AList</title>
-    <script>
-      window.ALIST = {
-        cdn: '',
-        monaco_cdn: undefined,
-        base_path: '/',
-        api: undefined,
-        main_color: '#1890ff',
-      }
-      window.__dynamic_base__ = window.ALIST.cdn || ""
-    </script>
-    
-    
-    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
-    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src= window.__dynamic_base__+e.getAttribute('data-src'),n.onload=function(){System.import( window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
-    <script>
-(function(){
-var preloads = [{"parentTagName":"head","tagName":"link","attrs":{"href":"/static/manifest.json","rel":"manifest"}},{"parentTagName":"head","tagName":"script","attrs":{"type":"module","crossorigin":"","src":"/assets/index.f05a6743.js"}},{"parentTagName":"head","tagName":"link","attrs":{"rel":"stylesheet","href":"/assets/index.15d8d646.css"}}];
-function setAttribute(target, attrs) {
-for (var key in attrs) {
-  target.setAttribute(key, attrs[key]);
-}
-return target;
-};
-for(var i = 0; i < preloads.length; i++){
-var item = preloads[i]
-var childNode = document.createElement(item.tagName);
-setAttribute(childNode, item.attrs)
-if( window.__dynamic_base__) {
-  if(item.tagName == 'link') {
-    setAttribute(childNode, { href:  window.__dynamic_base__ + item.attrs.href })
-  } else if (item.tagName == 'script') {
-    setAttribute(childNode, { src:  window.__dynamic_base__ + item.attrs.src })
-  }
-}
-document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
-}
-})();
-</script>
-</head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+👍冲啊！
+- [ ] 每天 100 字练字
+- [ ] 每天中英文论文各一篇
+- [ ] 完成每周工作总结
+- [ ] 每天 [Code](https://leetcode.cn/studyplan/top-interview-150/) [[leetcode]] 大概一个小时
+## 上周总结
 
-    
-    
-    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-    <script nomodule crossorigin id="vite-legacy-polyfill" data-src="/assets/polyfills-legacy.2b514363.js">!(function() {
-      var e = document.createElement('script')
-      e.src =  window.__dynamic_base__ + document.getElementById('vite-legacy-polyfill').getAttribute('data-src');
-      e.onload = function() {
-        System.import( window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))
-      };
-      document.body.appendChild(e)
-    })();</script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.d434190e.js"></script>
-  </body>
-</html>
+  
+
+## 本周目标
+
+  整机实验
+
+### <font color="#00b050">周一</font>
+
+题目做了一上午没做出来
+解决了气阀板变量定义的问题，回头可以总结一下发篇博客记录一下
+下午把臂重新休整了一下，整个下午啊，累 o (╥﹏╥)o
+
+
+### <font color="#00b0f0">周二</font>
+
+莫名其妙手抽筋
+今日题目做的很快
+开始逆运动学理论，尝试 GA
+  GA 基本完成，差调优，这个后面再说吧，啊太快了
+
+### <font color="#0070c0">周三</font>
+
+题目做的很费劲，做出来了也是耗时，想错了
+下午装了下气阀柜，把 48 个通道都接了一下
+晚上完善 GA 测试，做个效果图出来
+  
+
+### <font color="#7030a0">周四</font>  
+
+题目一遍过，飞快，这怎么是中等呢？
+下午 emm 摸鱼
+晚上 DrissionPage 真的好用
+
+
+### <font color="#972969">周五</font>
+ 题目还行
+ 下午做了下 ppt 装了个桌子，然后就啥也没干了
+ 下周要做什么，那就下周再说吧，现在不太想动脑子了
+ 再去写点博客？
+  写个软件 wallheave random paper 支持 windows linux 多显示器
+  有现成的 [hhannine/superpaper: A cross-platform multi monitor wallpaper manager. (github.com)](https://github.com/hhannine/superpaper)
+
+### <font color="#00b050">周六</font>
+
+  
+
+### <font color="#00b0f0">周日</font>
+
