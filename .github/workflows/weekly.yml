@@ -1,7 +1,6 @@
 # 根据当前的日期获取日志文件名、格式为WW.YYYY.MM.DD.md url 保存在gtihub 环境变量中
 # 
 env:
-  WEIBO_USER: 3641314261
   OWNER_REPO: ${{ github.repository }}
 
 # 1. 获取当前日期
@@ -30,7 +29,9 @@ jobs:
 
     - name: Install requirements
       working-directory: ./weekly
-      run: pip install requests
+      run: |
+      pip install requests
+      pip install feedparser
     
     - name: Download 
       working-directory: ./weekly
@@ -40,26 +41,13 @@ jobs:
       run: |
         python main.py $URL
   # 微博
-    - name: Install requirements
-      working-directory: ./weibo
-      run: pip install -r requirements.txt
-      
-    - name: Install & Run Redis
-      run: |
-        sudo apt-get install -y redis
-        redis-server --port 29384 &
+
 
     - name: Download tweets & Download pictures & Store tweets
       working-directory: ./weibo
       run: |
-        cd weibospider
-        python run_spider.py tweet
-        python run_spider.py user
-        python convert.py
-        cd ..
-    - name: replace raw.githubusercontent.com/wxydejoy/cdn/output with cdn.undf.top/weibo
-      run: |
-        sed -i 's/raw.githubusercontent.com\/wxydejoy\/cdn\/output/cdn.undf.top\/weibo/g' ./weibo/output/tweets.json
+        python main.py
+
 
         
     - name: Update output branch

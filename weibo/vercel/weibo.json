@@ -1,6 +1,0 @@
-{
-    "version": 2,
-    "routes": [
-        {"src": "/(.*)","dest": "https://raw.githubusercontent.com/shaoyaoqian/WeiboSpider/master/$1"}
-    ]
-}
