@@ -38,7 +38,8 @@
 
 ### <font color="#972969">周五</font>
 
-  
+  下午在挑选布料
+  然后把 ppt 做了
 
 ### <font color="#00b050">周六</font>
 
