@@ -19,11 +19,15 @@
 小赚 30 还不错
 找了四本书，要开始学习咯，明天开始
 下午的话，把那个气阀板再完善一下，哎，本来挺好的程序被搞得乌烟瘴气
-[改完了](https://gitlab.zjutrobot.com/softrobotlab/doublearmery/itv24/-/commit/e0f28e727998af25714a265182a19a6ec5bb0738)这下应该不会死机了，下次做实验再烧录吧，去看看轨迹生成，后面好凑两页ppt
+[改完了](https://gitlab.zjutrobot.com/softrobotlab/doublearmery/itv24/-/commit/e0f28e727998af25714a265182a19a6ec5bb0738)这下应该不会死机了，下次做实验再烧录吧，去看看轨迹生成，后面好凑两页 ppt
+做了最简单的开环轨迹，还行
 
 ### <font color="#00b0f0">周二</font>
 
-  
+  又是一个困难题，不墨迹了直接看答案，都很好，好困啊
+  看了会书 [[FreeRTOS内核实现与应用开发实战指南：基于STM32 (刘火良, 杨森) (Z-Library).pdf | RTOS]] P 32 还行，不过确实得找个时间搭个基础环境，就拿 32 算了还是 windows 吧，环境好像也可以了
+  > 简单地讲，进程是资源管理的最小单位，线程是程序执行的最小单位。[[嵌入式Linux系统开发教程 (华清远见嵌入式学院 编著) (Z-Library).pdf#page=103&selection=11,0,12,3|Linux]]
+  到第五章了
 
 ### <font color="#0070c0">周三</font>
 
