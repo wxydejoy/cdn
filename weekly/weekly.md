@@ -57,6 +57,8 @@
 
 ### <font color="#00b050">周六</font>
 
+今日收入 400，非常不错用时 5h
+
   
 
 ### <font color="#00b0f0">周日</font>
