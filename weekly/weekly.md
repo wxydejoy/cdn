@@ -9,20 +9,17 @@
 
 ## 本周目标
 
+软著三篇尽量 1000 行吧
   
 
 ### <font color="#00b050">周一</font>
 
-今天愚人节哎，3d 打印机表现出色
-题目竟然卡在了编译，啧啧啧，我本地明明没有问题
-简单画了个新的结构，测试下吧
-下午带着 sjh 和 dyz 熟悉整个臂的安装流程，上午的结构也测试过了，非常顺利
+[151. 反转字符串中的单词 - 力扣（LeetCode）](https://leetcode.cn/problems/reverse-words-in-a-string/solutions/2657859/pythongoc-mo-ni-by-himymben-m2f0/?envType=study-plan-v2&envId=top-interview-150) 本以为我的代码很长，看了下大家的，我还算短的...
 
-晚上买了青团，但是感觉好亏
+双臂尺寸
+打板
 ### <font color="#00b0f0">周二</font>
 
-摸鱼，在opi上面搭好了32的环境
-收拾一下准备回家咯
   
 
 ### <font color="#0070c0">周三</font>
@@ -43,5 +40,3 @@
 
 ### <font color="#00b0f0">周日</font>
 
-龙蛇演义
-3d打印可动小人带回家送人
