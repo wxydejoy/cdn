@@ -23,12 +23,12 @@
 - [x] 打板 ✅ 2024-04-08
 ### <font color="#00b0f0">周二</font>
 
-  
+  今天没做
 
 ### <font color="#0070c0">周三</font>
 
-  
-
+  [Z 字形变换](https://leetcode.cn/problems/zigzag-conversion/) 真的看不懂题，直接看答案吧
+ 上午整理了一下软著，基本都可以了，下午开完会给它写完。
 ### <font color="#7030a0">周四</font>
 
   
