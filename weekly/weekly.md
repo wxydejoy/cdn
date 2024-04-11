@@ -21,6 +21,7 @@
 
 - [x] 双臂尺寸 ✅ 2024-04-08
 - [x] 打板 ✅ 2024-04-08
+绑扎带测试过了，不管用，还是再想想吧
 ### <font color="#00b0f0">周二</font>
 
   今天没做
@@ -29,9 +30,12 @@
 
   [Z 字形变换](https://leetcode.cn/problems/zigzag-conversion/) 真的看不懂题，直接看答案吧
  上午整理了一下软著，基本都可以了，下午开完会给它写完。
+  软著基本写完了，明天把专利软著该交的都交一下
 ### <font color="#7030a0">周四</font>
 
-  
+  [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) 极快 10 分钟的样子
+  下午去完善上位机，还是先这样吧，那边位置没了...。
+
 
 ### <font color="#972969">周五</font>
 
