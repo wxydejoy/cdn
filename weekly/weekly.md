@@ -15,11 +15,15 @@
   尝试一下 [wxydejoy/wireless-esp8266-dap](https://github.com/wxydejoy/wireless-esp8266-dap)
 ### <font color="#00b050">周一</font>
 
-早上大组会
-
+早上大组会，没去，去了公司，烦人，做肌肉。
+无聊的一天啊。
+羊毛画了一点，争取明天下单。
+票抢到了，但是硬座，但是靠窗。
 ### <font color="#00b0f0">周二</font>
 
-
+wx机器人工具箱
+老师又要来。。。。。
+不懂，什么都不懂，看小说吧。
 
 ### <font color="#0070c0">周三</font>
 
