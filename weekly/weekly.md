@@ -24,12 +24,19 @@
 wx机器人工具箱，系统问题，莫名其妙的 numpy 包有问题
 老师又要来。。。。。
 不懂，什么都不懂
-
+上午在收拾东西
+下午弄香橙派
+晚上开个小会
+[15. 三数之和](https://leetcode.cn/problems/3sum/) 好难
 ### <font color="#0070c0">周三</font>
 
-  试一下这个 [SideEffect (danly.club)](http://danly.club/WebGames/SideEffect/index.html) 游戏
-  
+花了一个小时左右，不过总算做出来了
+![image](https://img.undf.top/ob/ff9080ffead80fbabfde13d04df6241a.png)
 
+
+  试一下这个 [SideEffect (danly.club)](http://danly.club/WebGames/SideEffect/index.html) 游戏
+  把大模型功能包写了吧
+  结构上考虑力矩平衡？
 ### <font color="#7030a0">周四</font>
 
   
