@@ -2,6 +2,7 @@
 import json
 import time
 import feedparser
+import requests
 # json 格式参考
 # {
 #   "tweets": [
@@ -51,8 +52,12 @@ import feedparser
 #   }
 # }
 
+data = requests.get('https://rsshub.app/weibo/user/3641314261')
+rss_data = feedparser.parse(data.text)
 
-rss_data = feedparser.parse('https://rsshub.app/weibo/user/3641314261')
+
+
+# print(rss_data.channel[0])  # 获取微博昵称
 # 获取微博内容
 print(rss_data.entries.__len__())
 
@@ -64,6 +69,7 @@ user = {
 }
 
 for entry in rss_data.entries:
+    # print(entry)
     # 将内容转换为json内的
     tweets.append(
         {
@@ -73,7 +79,7 @@ for entry in rss_data.entries:
             "comments_count": 0,
             "attitudes_count": 0,
             "content": entry.title,
-            "url": entry.link,
+            "url": '1'#entry.link,
         }
     )
 
