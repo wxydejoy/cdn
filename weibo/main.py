@@ -3,6 +3,7 @@ import json
 import time
 import feedparser
 import requests
+import re
 # json 格式参考
 # {
 #   "tweets": [
@@ -52,6 +53,9 @@ import requests
 #   }
 # }
 
+
+base_url = 'https://cdn.undf.top/weibo/'
+
 data = requests.get('https://rsshub.app/weibo/user/3641314261')
 rss_data = feedparser.parse(data.text)
 
@@ -67,10 +71,37 @@ tweets = []
 user = {
     "nick_name": rss_data.feed.title.replace('的微博', ''),
 }
-
+# print(rss_data.entries[0])
 for entry in rss_data.entries:
+
     # print(entry)
     # 将内容转换为json内的
+
+    # 获取图片并保存
+    urls_data = ''
+
+    try:
+        # src="https://tvax4.sinaimg.cn/large/d90a0bd5gy1hpp8mnl9amj20u01uon4u.jpg"
+        # re
+        urls = re.findall(r'src="(.*?)"', entry.summary)
+        num = 0
+        # print(urls)
+        for url in urls:
+            # SAVE IMG
+            path = 'img/' + str(time.strftime("%Y-%m-%d%H%M", entry.published_parsed)) +str(num) + '.jpg'
+            with open(path, 'wb') as f:
+                f.write(requests.get(url).content)
+            num += 1
+            urls_data += str("<br><img src='" + base_url + path + "'>")
+            print(urls_data)
+    except Exception as e:
+        # urls = ''
+        print(e)
+        pass
+
+
+
+
     tweets.append(
         {
 
@@ -78,7 +109,7 @@ for entry in rss_data.entries:
             "reposts_count": 0,
             "comments_count": 0,
             "attitudes_count": 0,
-            "content": entry.title,
+            "content": entry.title.replace('[图片]', '') + urls_data,
             "url": '1'#entry.link,
         }
     )
