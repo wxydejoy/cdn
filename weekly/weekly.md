@@ -1,1 +1,1 @@
-{"code":500,"message":"failed link: failed to get file: object not found","data":null}
+{"code":500,"message":"storage not found; rawPath: /weekly/45.2024.11.04.md","data":null}
