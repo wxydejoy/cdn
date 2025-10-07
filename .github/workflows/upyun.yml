@@ -16,6 +16,7 @@ jobs:
 
       - name: Move files to root directory
         run: |
+          ls -la 
           mv /github/workspace/* /
 
       - name: Deploy
