@@ -14,11 +14,6 @@ jobs:
         uses: actions/checkout@master
 
 
-      - name: Move files to root directory
-        run: |
-          ls -la 
-          mv /github/workspace/* /
-
       - name: Deploy
         uses: her-cat/upyun-deployer@v1.0.3
         with:
